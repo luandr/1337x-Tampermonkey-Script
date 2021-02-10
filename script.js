@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         1337 Search Generator + Subtitle Generator for TVTime
 // @version      1.1
-// @description  this script create a href element inside www.tvtime.com to access subtitle website for each episode directly in www.legendario.org
+// @description  this script create a href element inside www.tvtime.com to access subtitle website for each episode directly in www.solegendas.net
 // @author       github.com/luandr | gitlab.com/luandr
 // @match        https://www.tvtime.com/*
 // @require https://code.jquery.com/jquery-3.4.1.min.js
