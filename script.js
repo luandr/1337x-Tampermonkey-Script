@@ -45,7 +45,7 @@
             const serieTorrent = serie.replaceArray(replaceFixQuotelArray, replaceFixQuoteValue); // Adjust for search the torrent
             serie = serie.simplyReplace(replaceSimplyArray, replaceSimplyValue); // Adjust for search the subtitle
             nomeSerie.text(nomeSerie.text().substring(0, 26)); //Line wrap cuz disappears the torrent link if is a big name
-            $(obj).find('a:nth-child(2)').parent().css('height', 64).append(`<br><a href="https://legendario.org/legenda/${serie}-${episodio}" class="secondary-link" target="_blank">Legenda</a>`)
+            $(obj).find('a:nth-child(2)').parent().css('height', 64).append(`<br><a href="https://solegendas.net/${serie}-${episodio}" class="secondary-link" target="_blank">Legenda</a>`)
                 .append(`<br><a href="https://www.1337x.to/search/${serieTorrent}+${episodio}+${quality}/1/" target="_blank" class="secondary-link">Procurar Torrent</a>`);
         }
     })
